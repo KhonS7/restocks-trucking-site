@@ -33,7 +33,7 @@ export default function Header({ variant = "legal" }: HeaderProps) {
           {variant === "home" ? (
             <>
               <a href="#features">Product</a>
-              <a href="#why">Why Restocks</a>
+              <Link href="/team">Team</Link>
               <Link href="/privacy">Privacy</Link>
               <Link href="/sms-terms">SMS Terms</Link>
               <a
@@ -46,6 +46,7 @@ export default function Header({ variant = "legal" }: HeaderProps) {
           ) : (
             <>
               <Link href="/">Home</Link>
+              <Link href="/team">Team</Link>
               <Link href="/privacy">Privacy</Link>
               <Link href="/sms-terms">SMS Terms</Link>
               <a href="mailto:admin@restocks.ai">Contact</a>

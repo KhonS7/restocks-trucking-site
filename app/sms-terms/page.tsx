@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export const metadata: Metadata = {
   title: "SMS Terms — Restocks (AESTRA INC)",
   description:
-    "SMS Terms of Use for Restocks, operated by AESTRA INC. Covers message categories, frequency, opt-out (STOP), help (HELP), and rates.",
+    "SMS Terms of Use for Restocks, operated by AESTRA INC. Message categories, frequency, opt-out (STOP), help (HELP), and rates.",
 };
 
 export default function SmsTermsPage() {
@@ -35,120 +35,77 @@ export default function SmsTermsPage() {
           </div>
 
           <div className="doc-content">
-            <h2>1. Description of Service</h2>
+            <h2>1. Service</h2>
             <p>
               AESTRA INC (&quot;AESTRA,&quot; &quot;we,&quot; &quot;us&quot;)
-              sends SMS and MMS messages from <b>+1 (844) 223-4074</b> to mobile
-              phone numbers provided to us by U.S. motor carrier customers.
-              Messages are sent in connection with the carrier&apos;s regulatory
-              compliance program under 49 CFR.
+              sends SMS messages from <b>+1 (844) 223-4074</b> to mobile phone
+              numbers provided to us by U.S. motor carrier customers, in
+              connection with the carrier&apos;s regulatory compliance program
+              under 49 CFR. We do <b>not</b> send marketing or promotional SMS
+              on this number.
             </p>
 
             <h2>2. Categories of Messages</h2>
-            <p>Recipients may receive SMS messages in the following categories:</p>
             <ul>
+              <li>CDL expiration and renewal reminders</li>
               <li>
-                <b>CDL expiration and renewal reminders</b>
+                DOT drug and alcohol test selection notifications (random,
+                post-accident, reasonable suspicion, return-to-duty, follow-up)
               </li>
               <li>
-                <b>DOT drug and alcohol test selection notifications</b>{" "}
-                (random, post-accident, reasonable suspicion, return-to-duty,
-                follow-up)
+                FMCSA Drug &amp; Alcohol Clearinghouse query result
+                notifications
+              </li>
+              <li>Hours-of-Service and safety training due-date reminders</li>
+              <li>
+                Safety event notifications (speeding events, harsh braking,
+                ELD violations)
               </li>
               <li>
-                <b>FMCSA Drug &amp; Alcohol Clearinghouse query result notifications</b>
-              </li>
-              <li>
-                <b>Hours-of-Service and safety training due-date reminders</b>
-              </li>
-              <li>
-                <b>Safety event notifications</b> (e.g., speeding events
-                recorded by Electronic Logging Devices, harsh braking, lane
-                departure)
-              </li>
-              <li>
-                <b>Account and service notifications</b> related to the
+                Account and service notifications related to the
                 recipient&apos;s role with the motor carrier
               </li>
             </ul>
+
+            <h2>3. Frequency &amp; Cost</h2>
             <p>
-              We do <b>not</b> send marketing or promotional SMS on this number.
+              Frequency varies based on compliance events. A typical CDL driver
+              receives 1–10 messages per month. Message and data rates may
+              apply. AESTRA INC is not responsible for charges from your
+              wireless carrier.
             </p>
 
-            <h2>3. Frequency</h2>
+            <h2>4. Opt Out (STOP) &amp; Help (HELP)</h2>
             <p>
-              Message frequency varies based on the recipient&apos;s compliance
-              events. A typical commercial driver may receive 1–10 messages per
-              month. Frequency may increase around random drug-test cycles,
-              training enrollment periods, or safety reviews.
+              Reply <b>STOP</b> to any SMS (or email{" "}
+              <a href="mailto:admin@restocks.ai">admin@restocks.ai</a>) to opt
+              out. After opt-out, you will receive one final confirmation
+              message. Reply <b>HELP</b> for sender identification and support.
             </p>
 
-            <h2>4. Cost</h2>
-            <p>
-              Message and data rates may apply. AESTRA INC is not responsible
-              for charges from your wireless carrier. Carriers are not liable
-              for delayed or undelivered messages.
-            </p>
-
-            <h2>5. Opt Out (STOP)</h2>
-            <p>
-              You can withdraw consent and stop receiving SMS from this number
-              at any time by:
-            </p>
-            <ul>
-              <li>
-                Replying <b>STOP</b> to any SMS message received from us; or
-              </li>
-              <li>
-                Emailing{" "}
-                <a href="mailto:admin@restocks.ai">admin@restocks.ai</a> with
-                the phone number you want unsubscribed.
-              </li>
-            </ul>
-            <p>
-              After opting out, you will receive one final confirmation message.
-              Opting out does not terminate any other relationship you may have
-              with the motor carrier or AESTRA INC.
-            </p>
-
-            <h2>6. Help (HELP)</h2>
-            <p>
-              Reply <b>HELP</b> to any SMS for sender identification and support
-              contact information, or email{" "}
-              <a href="mailto:admin@restocks.ai">admin@restocks.ai</a>.
-            </p>
-
-            <h2>7. Consent and Authority</h2>
+            <h2>5. Consent</h2>
             <p>
               By providing your mobile phone number to AESTRA INC (directly or
-              through your employer), you confirm that you are the account
-              holder or have the account holder&apos;s permission, and you
-              consent to receive SMS messages in the categories above. Consent
-              is not a condition of any employment or service.
+              through your employer), you consent to receive SMS messages in
+              the categories above. Consent is not a condition of any
+              employment or service.
             </p>
 
-            <h2>8. Privacy</h2>
+            <h2>6. Privacy</h2>
             <p>
-              Mobile phone numbers and SMS content are handled according to our{" "}
+              Mobile phone numbers and SMS content are handled per our{" "}
               <Link href="/privacy">Privacy Policy</Link>.{" "}
               <b>
-                No mobile information is shared with third parties for marketing
-                or promotional purposes.
+                No mobile information is shared with third parties for
+                marketing or promotional purposes.
               </b>{" "}
               Mobile opt-in data and consent are not shared with any third
               party except aggregators and providers of the text messaging
-              service (e.g., Twilio) for the sole purpose of delivering
+              service (such as Twilio) for the sole purpose of delivering
               messages.
             </p>
 
-            <h2>9. Supported Carriers</h2>
-            <p>
-              Supported U.S. wireless carriers include AT&amp;T, T-Mobile,
-              Verizon, US Cellular, and most regional carriers. SMS delivery
-              may be unavailable on some carriers or to some phone numbers.
-            </p>
-
-            <h2>10. Contact</h2>
+            <h2>7. Contact</h2>
             <p>
               AESTRA INC (d/b/a Restocks)
               <br />
@@ -156,7 +113,7 @@ export default function SmsTermsPage() {
               <br />
               Email: <a href="mailto:admin@restocks.ai">admin@restocks.ai</a>
               <br />
-              SMS number: +1 (844) 223-4074
+              SMS sender: +1 (844) 223-4074
             </p>
           </div>
         </div>

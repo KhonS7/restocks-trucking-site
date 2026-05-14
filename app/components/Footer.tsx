@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="container foot">
         <div className="foot-links">
           <Link href="/">Home</Link>
+          <Link href="/team">Team</Link>
           <Link href="/privacy">Privacy</Link>
           <Link href="/sms-terms">SMS Terms</Link>
           <a href="mailto:admin@restocks.ai">Contact</a>
