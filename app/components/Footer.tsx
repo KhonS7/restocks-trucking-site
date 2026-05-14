@@ -9,6 +9,7 @@ export default function Footer() {
           <Link href="/team">Team</Link>
           <Link href="/privacy">Privacy</Link>
           <Link href="/sms-terms">SMS Terms</Link>
+          <Link href="/sms-consent-sample">Consent Sample</Link>
           <a href="mailto:admin@restocks.ai">Contact</a>
         </div>
         <div className="foot-legal">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -173,7 +174,7 @@ export default function HomePage() {
         </section>
 
         {/* INLINE FEATURE STRIP */}
-        <section className="strip">
+        <section className="strip" id="features">
           <div className="container strip-grid">
             <div className="strip-item">
               <div className="strip-icon">
@@ -237,6 +238,21 @@ export default function HomePage() {
                 <p>SMS reminders · STOP/HELP compliant</p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Carrier-trust line — also a reviewer convenience link to legal pages */}
+        <section className="trust-line">
+          <div className="container">
+            <p>
+              For motor carriers: review our{" "}
+              <Link href="/privacy">Privacy Policy</Link>,{" "}
+              <Link href="/sms-terms">SMS Terms</Link>, and a{" "}
+              <Link href="/sms-consent-sample">
+                redacted sample of the executed SMS Communications Consent
+              </Link>{" "}
+              we sign with every carrier during onboarding.
+            </p>
           </div>
         </section>
       </main>
